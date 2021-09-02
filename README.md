@@ -2,6 +2,8 @@
 
 ## Criando nomes amigáveis para seus servidores
 
+```
+
 - job_name: 'win-exporter'
   static_configs:
   - targets:
@@ -17,3 +19,4 @@
     replacement: $1
     target_label: __address__
 
+```
